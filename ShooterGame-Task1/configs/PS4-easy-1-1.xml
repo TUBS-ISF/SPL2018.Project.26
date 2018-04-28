@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="ShooterGame"/>
+    <feature automatic="selected" name="Menu"/>
+    <feature automatic="selected" name="Configuration"/>
+    <feature automatic="selected" name="Difficulty"/>
+    <feature manual="selected" name="Easy"/>
+    <feature automatic="unselected" name="Medium"/>
+    <feature automatic="unselected" name="Difficult"/>
+    <feature automatic="selected" name="Map"/>
+    <feature manual="selected" name="Map1"/>
+    <feature automatic="unselected" name="Map2"/>
+    <feature automatic="selected" name="Character"/>
+    <feature manual="selected" name="Character1"/>
+    <feature automatic="unselected" name="Character2"/>
+    <feature automatic="selected" name="Platform"/>
+    <feature manual="selected" name="PS4"/>
+    <feature automatic="unselected" name="iOS"/>
+    <feature automatic="unselected" name="Android"/>
+    <feature automatic="unselected" name="PC"/>
+    <feature automatic="unselected" name="Xbox"/>
+</configuration>
