@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="ShooterGame"/>
+    <feature automatic="selected" name="Menu"/>
+    <feature automatic="selected" name="Play"/>
+    <feature automatic="selected" name="Move"/>
+    <feature manual="selected" name="MoveLeft"/>
+    <feature manual="selected" name="Move Right"/>
+    <feature manual="selected" name="MoveUp"/>
+    <feature manual="selected" name="MoveDown"/>
+    <feature automatic="selected" name="Platform"/>
+    <feature automatic="unselected" name="PS4"/>
+    <feature automatic="unselected" name="iOS"/>
+    <feature manual="selected" name="Android"/>
+    <feature automatic="unselected" name="PC"/>
+    <feature automatic="unselected" name="Xbox"/>
+</configuration>
