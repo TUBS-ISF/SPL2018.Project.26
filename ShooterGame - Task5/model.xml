@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="ShooterGame">
+            <description>
+The program is a shooter game.
+</description>
+            <and mandatory="true" name="Menu">
+                <description>
+Displays the menu of the game
+</description>
+                <and name="Configuration">
+                    <description>
+Allows configuration of some aspects
+</description>
+                    <and mandatory="true" name="Difficulty">
+                        <description>
+Allows to pick the difficulty of the game
+</description>
+                        <feature name="Easy"/>
+                        <feature name="Medium"/>
+                        <feature name="Difficult"/>
+                    </and>
+                    <and mandatory="true" name="Map">
+                        <description>
+Allows to choose the map
+</description>
+                        <feature name="Map1"/>
+                        <feature name="Map2"/>
+                    </and>
+                    <and mandatory="true" name="Character">
+                        <description>
+Allows to change the character for the player
+</description>
+                        <feature name="Character1"/>
+                        <feature name="Character2"/>
+                    </and>
+                </and>
+                <and name="Play">
+                    <description>
+Starts the game
+</description>
+                    <and abstract="true" name="Move">
+                        <description>
+The player moves on the direction chosen
+</description>
+                        <feature abstract="true" name="MoveLeft"/>
+                        <feature abstract="true" name="Move Right"/>
+                        <feature abstract="true" name="MoveUp"/>
+                        <feature abstract="true" name="MoveDown"/>
+                    </and>
+                    <and abstract="true" name="Shoot">
+                        <description>
+The player shoots on the direction chosen
+</description>
+                        <feature abstract="true" name="ShootLeft"/>
+                        <feature abstract="true" name="ShootRight"/>
+                        <feature abstract="true" name="ShootUp"/>
+                        <feature abstract="true" name="ShootDown"/>
+                    </and>
+                    <alt abstract="true" name="Pause">
+                        <description>
+The game is paused
+</description>
+                        <feature abstract="true" name="Restart">
+                            <description>
+Restarts the game
+</description>
+                        </feature>
+                        <feature abstract="true" name="Quit">
+                            <description>
+Quits the game and goes to the menu
+</description>
+                        </feature>
+                        <feature abstract="true" name="Close">
+                            <description>
+Closes the pause menu and resumes the game
+</description>
+                        </feature>
+                    </alt>
+                </and>
+                <alt abstract="true" mandatory="true" name="Platform">
+                    <description>
+Allows to pick the platform for the game.
+</description>
+                    <feature abstract="true" name="PS4"/>
+                    <feature abstract="true" name="iOS"/>
+                    <feature abstract="true" name="Android"/>
+                    <feature abstract="true" name="PC"/>
+                    <feature abstract="true" name="Xbox"/>
+                </alt>
+            </and>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
